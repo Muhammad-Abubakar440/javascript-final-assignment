@@ -415,7 +415,427 @@
 // }
 // console.log("Area of circle",area());
 
-//30. Write a js program to find maximum and minimum between two numbers using functions.
+//30. Write a js p
+// 31.Write a js program to check whether a number is even or odd using functions
+// function to_find_ev_od(n){
+  
+// if (n%2==0) {
+//     console.log(n,"is even");
+// } else {
+//     console.log(n,"is odd");
+// }
+// }
+// var n=prompt("Enter an number");
+// to_find_ev_od(n)
+
+// 32.Write a js program to check whether a number is prime, Armstrong or perfect number using functions.
+// ?????????????????not solve.......
+
+// function cb(num){
+
+// var choice=prompt("Enter 1 for prime , 2 for Armstrong , 3 for perfect number");
+// var c=parseInt(choice)
+// switch(c){
+//     case 1:
+//     var c,p=1;
+//     for(c=2;c<=num/2;c++)
+//     if(num%c==0)
+//     {
+//         p=0;
+//         break;
+//     }
+//     if(p==1)
+//     console.log(num,"is a prim number");
+// break;
+// case 2:
+//     var origNum, rem,res=0;
+//     origNum=num;
+//     while(origNum!=0){
+//         rem=origNum%10;
+//         res+=rem*rem*rem;
+//         origNum/=10;
+//     }
+//     if(res==num)
+//     console.log(num,"is Armstrongn number");
+//     break;
+//     case 3:
+//         var sum=0;
+//         for(var i=1;i<num;i++)
+//         {
+//             if(num%i==0)
+//             sum=sum+i;
+
+//         }
+//         if(sum==num)
+//         console.log(num,"is a perfect number");
+//         break;
+// default:
+//     console.log("plz enter valid number");
+// }
+// }
+// var b=prompt("Enter a number:");
+// var c=parseInt(b)
+// cb(c)
+
+// 33.Write a js program to find maximum between two numbers using conditional operator.
+// var max;
+// var a=prompt("Enter first number");
+// var b=prompt("Enter second number");
+// max=a>b?(a>c?a:c)
+//     console.log("The maximum number is",max);
+
+// 34.Write a js program to find maximum between three numbers using conditional operator.
+// var max;
+// var a=prompt("Enter first number");
+// var b=prompt("Enter second number");
+// var c=prompt("Enter third number");
+// max=a>b?(a>c?a:c):(b>c?b:c)
+//     console.log("The maximum number is",max);
+// 35. Write a js program to check whether a number is even or odd using conditional operator.
+
+// var n ;
+// n=prompt("Enter a number");
+// (n%2==0?console.log("Even"):console.log("Odd"));
+
+//36. Write a js program to check whether year is leap year or not using conditional operator.
+
+// var y=prompt("Enter a year");
+// (y%4==0? console.log(y,"is a leap year"):console.log(y,"is not a leap year")) 
+
+// 37.Write a js program to check whether character is an alphabet or not using conditional operator.
+
+// var ch=prompt("Enter any charater");
+// (ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z')? 
+//     console.log("The character",ch,"is a alphabet."):
+//    console.log("The character",ch,"is a not alphabet.");
+
+//38. Write a js program to print day of week name using switch case.
+
+// var n=prompt("Enter number of a weekday");
+// var c=parseInt(n)
+// switch (c) {
+//   case 1:
+//     console.log("Friday");
+//      break;
+//      case 2:
+//     console.log("Saturday");
+//      break;
+//      case 3:
+//     console.log("Sunday");
+//      break;
+//      case 4:
+//     console.log("Monday");
+//      break;
+//      case 5:
+//     console.log("Tuesday");
+//      break;
+//      case 6:
+//     console.log("Wednesday");
+//      break;
+//      case 7:
+//     console.log("Thursday");
+//      break;
+//     default:
+//         console.log("Invalid Input");
+        
+// }
+
+//39. Write a js program print total number of days in a month using switch case.
+// var m=prompt("Enter The Month");
+// var c=parseInt(m)
+// switch(c){
+// case 1:
+//     console.log("31 days");
+//     break;
+//     case 1:
+//     console.log("31 days");
+//     break;
+//     case 2:
+//     console.log("28 or 29 days");
+//     break;
+//     case 3:
+//     console.log("31 days");
+//     break;
+//     case 4:
+//     console.log("30 days");
+//     break;
+//     case 5:
+//     console.log("31 days");
+//     break;
+//     case 6:
+//     console.log("30 days");
+//     break;
+//     case 7:
+//     console.log("31 days");
+//     break;
+//     case 8:
+//     console.log("31 days");
+//     break;
+//     case 9:
+//     console.log("30 days");
+//     break;
+//     case 10:
+//     console.log("31 days");
+//     break;
+//     case 11:
+//     console.log("30 days");
+//     break;
+//     case 12:
+//     console.log("31 days");
+//     break;
+// default:
+//     console.log("Invalid Input");
+    
+// } 
+
+//40. Write a js program to check whether an alphabet is vowel or consonant using switch case
+
+// var ch=prompt("Enter any character:")
+// switch(ch){
+//     case 'A':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'a':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'E':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'e':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'I':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'i':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'O':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'o':
+//     console.log("You Enter Vowel:");
+//     break;
+//     case 'U':
+//     console.log("You Enter Vowel:");
+//     break;case 'u':
+//     console.log("You Enter Vowel:");
+//     break;
+//     default:
+//         console.log("You Enter consinent");
+// }
+
+//41. Write a js program to find maximum between two numbers using switch case.
+// ...................not working
+
+
+// var a=prompt("Enter the 1st number");
+// var b=prompt("Enter the 2nd number");
+// var c=parseInt(a);
+// var d=parseInt(b);
+// switch(c>d){
+//     case 1:
+//         console.log("Maximum number is",c);
+//         break;
+//         case 0:
+//             console.log("Maximum number is",d);  
+//             break;
+//             default:
+//                 console.log("Invalid input");
+// }
+
+// 42.Write a js program to check whether a number is even or odd using switch case.
+
+// var a=prompt("Enter the number");
+// var c=parseInt(a);
+// switch(c%2){
+//     case 0:
+//         console.log("even");
+//         break;
+//         case 1:
+//             console.log("odd");  
+// }
+
+// 43. Write a js program to check whether a number is positive, negative or zero using switch case
+// .........................not working.....
+// var a=prompt("Enter the number");
+// // var c=parseInt(a);
+// switch(a>0){
+//     case 1:
+//         console.log("postive");
+//         break;
+//         case 0:
+//        switch(a<0){
+//     case 1:
+//         console.log("negtive");
+//         break;
+//         case 0:
+//             console.log("zero");  
+//             break;
+// }
+// break; 
+// }
+
+//44. Write a js program to find roots of a quadratic equation using switch case.
+
+
+// let root1, root2;
+
+// take input from the user
+// let a = prompt("Enter the first number: ");
+// let b = prompt("Enter the second number: ");
+// let c = prompt("Enter the third number: ");
+
+// calculate discriminant
+// let discriminant = b * b - 4 * a * c;
+
+// condition for real and different roots
+// if (discriminant > 0) {
+//     root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+//     root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+
+    // result
+//     console.log(`The roots of quadratic equation are ${root1} and ${root2}`);
+// }
+
+// // condition for real and equal roots
+// else if (discriminant == 0) {
+//     root1 = root2 = -b / (2 * a);
+
+    // result
+//     console.log(`The roots of quadratic equation are ${root1} and ${root2}`);
+// }
+
+// if roots are not real
+// else {
+//     let realPart = (-b / (2 * a)).toFixed(2);
+//     let imagPart = (Math.sqrt(-discriminant) / (2 * a)).toFixed(2);
+
+    // result
+//     console.log(
+//     `The roots of quadratic equation are ${realPart} + ${imagPart}i and ${realPart} - ${imagPart}i`
+//   );
+// }
+
+
+//45.  Write a js program to create Simple Calculator using switch case.
+
+// let result;
+
+// take the operator input
+// const operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+// take the operand input
+// const number1 = parseFloat(prompt('Enter first number: '));
+// const number2 = parseFloat(prompt('Enter second number: '));
+
+// switch(operator) {
+//     case '+':
+//          result = number1 + number2;
+//         console.log(`${number1} + ${number2} = ${result}`);
+//         break;
+
+//     case '-':
+//          result = number1 - number2;
+//         console.log(`${number1} - ${number2} = ${result}`);
+//         break;
+
+//     case '*':
+//          result = number1 * number2;
+//         console.log(`${number1} * ${number2} = ${result}`);
+//         break;
+
+//     case '/':
+//          result = number1 / number2;
+//         console.log(`${number1} / ${number2} = ${result}`);
+//         break;
+
+//     default:
+//         console.log('Invalid operator');
+//         break;
+// }
+
+// 46.Write a js program to count total number of negative elements in an array.
+
+
+    // var arr=[100]; //Declaring size of an array as 100
+    // var i, num, count=0;
+
+    // //Reads size and elements of array
+    //  num = prompt('Enter the size of arry: ');
+
+    // for(i=0; i<num; i++)
+    // {
+        
+    // arr[i]=prompt("Enter elements in array : ");
+    // }
+
+    // //Counts total number of negative elements
+    // for(i=0; i<num; i++)
+    // {
+    //     if(arr[i]<0)
+    //     {
+    //         count++; //couting negative elements
+    //     }
+    // }
+    // console.log("Total number of negative elements = ", count);
+
+    // 47.Write a js program to copy all elements from an array to another array.
+//     var first =  [1, 2, 3];
+// var second = [4, 5];
+ 
+// Array.prototype.push.apply(first, second);
+// console.log(first);
+
+// 48. Write a js program to insert an element in an array
+
+
+// function insertElement() {
+//     let array = [1, 2, 3, 4, 5];
+
+//     // index to add to
+//     let index = 3;
+
+//     // element that you want to add
+//     let element = 8;
+  
+//     array.splice(index, 0, element);
+//     console.log(array);
+// }
+
+// insertElement();
+
+
+// 49. Write a js program to delete an element from an array at specified position.
+
+// var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+    
+//     for( var i = 0; i < arr.length; i++){ 
+    
+//         if ( arr[i] === 5) { 
+    
+//             arr.splice(i, 1); 
+//             console.log(arr);
+//         }
+    
+//     }
+
+// 50.Write a js program to count frequency of each element in an array.
+
+// const arr = [2,5,7,8,5,3,5,7,8,5,3,4,2,4,2,1,6,8,6];
+// const getFrequency = (array) => {
+//    const map = {};
+//    array.forEach(item => {
+//       if(map[item]){
+//          map[item]++;
+//       }else{
+//          map[item] = 1;
+//       }
+//    });
+//    return map;
+// };
+// console.log(getFrequency(arr));
+// rogram to find maximum and minimum between two numbers using functions.
 
 // function max(a,b){
 //     var max;
